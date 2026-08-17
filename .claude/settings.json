@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(magick -version)",
+      "Bash(where chrome *)",
+      "Bash(python -c \"import PIL, sys; print\\('pillow', PIL.__version__\\)\")",
+      "Bash(python -c \"import cairosvg; print\\('cairosvg ok'\\)\")",
+      "Read(//c/Program Files \\\\\\(x86\\\\\\)/Microsoft/Edge/Application/**)",
+      "Bash(python tools/make_icons.py)",
+      "Bash(python tools/pack.py)",
+      "Bash(python -c ' *)",
+      "Bash(rm -f dist/volume-booster-1.1.0.zip dist/volume-booster-1.1.0.crx)",
+      "Bash(mv dist/signing-key.pem \"../volumebooster-signing-key.pem\")",
+      "Read(//c/Users/balda/Desktop/Codice/**)",
+      "Bash(gh auth *)",
+      "Bash(git checkout *)",
+      "Bash(git rm *)",
+      "Bash(git add *)"
+    ]
+  }
+}
